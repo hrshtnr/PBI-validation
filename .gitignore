@@ -1,0 +1,16 @@
+# Power BI local artifacts
+.pbi/localSettings.json
+.pbi/cache.abf
+*.pbix
+*.Dataset/.pbi/
+*.SemanticModel/.pbi/
+*.Report/.pbi/
+
+# Credentials and env
+*.env
+credentials*
+secrets*
+
+# OS
+Thumbs.db
+desktop.ini
